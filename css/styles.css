@@ -1,0 +1,466 @@
+
+* {
+
+  margin: 0;
+  padding: 0;
+
+
+}
+
+
+
+
+
+body {
+
+  
+  min-height: 800px;
+  
+  display: flex;
+  gap: 40px;
+
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+
+}
+
+.videoblock {
+
+  display: block;
+  height: 100%;
+  width: 100%;
+
+  padding-bottom: 90px;
+
+}
+
+
+
+
+
+.masttitle {
+  display: block;
+  background-color: black;
+  text-align: center;
+  font-size: 34px;
+  color: white;
+
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 40px;
+
+  padding-right: 40px;
+
+
+}
+
+
+
+
+
+.indexPic{
+
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  gap: 20px;
+
+  margin-bottom: 40px;
+
+  padding-top: 30px;
+
+
+
+
+
+
+  
+}
+
+
+#firstblock {
+
+  background-color: rgba(126, 252, 0, 0.797);
+
+  height: 100%;
+  width: 100%;
+
+  margin-left: 50px;
+  margin-right: 50px;
+
+
+}
+
+#secondblock {
+
+  background-color: rgba(0, 255, 255, 0.758);
+
+  height: 100%;
+  width: 100%;
+
+  margin-left: 50px;
+  margin-right: 50px;
+
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+
+  
+}
+
+#thirdblock {
+
+  background-color: rgba(255, 255, 255, 0.818);
+
+  height: 100%;
+  width: 100%;
+
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+
+.daughters {
+
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+}
+
+.MainMessage {
+
+  padding-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  font-size: 100px;
+  line-height: 120px;
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+
+
+}
+
+.MainMessageSub {
+
+  padding-top: 25px;
+  font-size: 80px;
+  line-height: 85px;
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-left: 25px;
+  margin-right: 25px;
+
+}
+
+
+
+
+.paragraphbooktext {
+
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+
+  padding-left: 30px;
+  padding-right: 30px;
+
+  padding-bottom: 50px;
+
+  padding-top: 40px;
+
+  font-size: 64px;
+  line-height: 78px;
+  text-align: left;
+
+  margin-left: 35px;
+  margin-right: 35px;
+  color: red;
+
+}
+
+
+
+
+.directorcopy {
+
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+
+  padding-left: 30px;
+  padding-right: 30px;
+
+  padding-bottom: 30px;
+
+  padding-top: 30px;
+
+  font-size: 48px;
+  line-height: 55px;
+  text-align: left;
+
+  margin-top: 30px;
+
+  margin-left: 35px;
+  margin-right: 35px;
+  color: black;
+
+}
+
+
+.span {
+  color: yellow;
+  font-weight: bolder;
+}
+
+.footer {
+  
+  padding: 50px;
+  text-align: center;
+  font-size: 38px;
+  background-color: rgba(0, 0, 0, 0.484);
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+.footertext {
+
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 0px) and (max-width: 1000px) {
+
+
+
+
+  .masttitle {
+    display: block;
+    background-color: red;
+    text-align: center;
+    font-size: 34px;
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 40px;
+
+    padding-right: 40px;
+
+    
+
+  }
+
+  .MainMessageSub {
+
+    padding-top: 25px;
+    font-size: 80px;
+    line-height: 85px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+  
+  }
+
+
+
+
+.span {
+  color: yellow;
+  font-weight: bolder;
+}
+
+
+
+
+  
+  .paragraphbooktext {
+
+    display: float;
+    font-family: Arial, Helvetica, sans-serif;
+  
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 34px;
+    line-height: 47px;
+    text-align: left;
+  
+    margin-left: 35px;
+    margin-right: 35px;
+
+    padding-top: 50px;
+
+  
+  }
+
+
+  .daughters {
+
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 10px;
+    flex-direction: row;
+  }
+
+  .indexPic{
+
+
+    height: 90%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-top: 30px;
+
+
+
+  }
+
+
+  .directorcopy {
+
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+  
+    padding-left: 30px;
+    padding-right: 30px;
+
+    padding-top: 30px;
+
+    padding-bottom: 30px;
+
+    font-size: 38px;
+    line-height: 45px;
+    text-align: left;
+  
+    margin-left: 35px;
+    margin-right: 35px;
+    color: black;
+  
+  }
+
+  .footer {
+  
+    padding: 50px;
+    text-align: center;
+    font-size: 48px;
+    background-color: tan;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .footertext {
+  
+    color: black;
+  }
+
+  .bookicon {
+
+    width: 50vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    clear: both;
+  }
+
+  .my-hero-splash-header{
+    background-color: white;
+
+    height: 100%;
+    width: 100%;
+
+  }
+
+  
+
+}
+  
+@media screen and (min-width: 1024px) {
+
+
+
+
+  .indexPic{
+
+
+  padding-left: 30px;
+  padding-right: 30px;
+
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  height: 50%;
+  width: 50%;
+
+  margin-left: auto;
+  margin-right: auto;
+
+
+
+
+  }
+
+
+  .masttitle {
+    display: block;
+    background-color: red;
+    text-align: center;
+    font-size: 34px;
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 40px;
+
+    padding-right: 40px;
+
+    
+
+  }
+
+  .directorcopy {
+
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+  
+    padding-left: 30px;
+    padding-right: 30px;
+  
+    padding-bottom: 30px;
+  
+    margin-top: 30px;
+  
+    font-size: 44px;
+    line-height: 51px;
+    text-align: left;
+  
+    margin-top: 30px;
+  
+    margin-left: 35px;
+    margin-right: 35px;
+    color: black;
+  
+  }
+  
+
+
+}
+
+
+
+
+
